@@ -1,10 +1,4 @@
-# MySQL Practice Projects — Beginner & Intermediate
-
-Eight self-contained MySQL projects across two skill levels, covering
-different real-world domains. Each project creates its own database, seeds
-it with sample data, and runs a full annotated query set. All scripts were
-tested end-to-end against a live MySQL/MariaDB instance and run without
-errors.
+# MySQL Projects
 
 ## Contents
 
@@ -25,11 +19,6 @@ errors.
 | 6 | `04_hr_management_intermediate.sql` | HR / employee management | Self-joins, views, `HAVING` |
 | 7 | `09_food_delivery_intermediate.sql` | Food delivery app | Correlated subqueries, `CASE`, `TIMESTAMPDIFF`, cancellation-rate analysis |
 | 8 | `10_airline_booking_intermediate.sql` | Airline booking | Double self-joins (route pairs), `CASE`, `HAVING` vs. subquery average |
-
-## Requirements
-
-- MySQL 8.0+ or MariaDB 10.2+ (also compatible with older 5.x versions)
-- A client: `mysql` CLI, MySQL Workbench, DBeaver, TablePlus, etc.
 
 ## Beginner projects
 
