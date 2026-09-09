@@ -17,8 +17,7 @@
 |---|------|--------|-------|
 | 5 | `03_ecommerce_intermediate.sql` | E-commerce | Multi-table `JOIN`s, subqueries, `HAVING`, `CASE`, date functions |
 | 6 | `04_hr_management_intermediate.sql` | HR / employee management | Self-joins, views, `HAVING` |
-| 7 | `09_food_delivery_intermediate.sql` | Food delivery app | Correlated subqueries, `CASE`, `TIMESTAMPDIFF`, cancellation-rate analysis |
-| 8 | `10_airline_booking_intermediate.sql` | Airline booking | Double self-joins (route pairs), `CASE`, `HAVING` vs. subquery average |
+| 7 | `10_airline_booking_intermediate.sql` | Airline booking | Double self-joins (route pairs), `CASE`, `HAVING` vs. subquery average |
 
 ## Beginner projects
 
@@ -103,21 +102,7 @@ Departments and employees, including a manager hierarchy.
 departments with above-average headcount, a `VIEW` summarizing department
 budget vs. salary spend, longest-tenured employee per department.
 
-### 7. Food Delivery App
-
-Restaurants, menu items, customers, drivers, orders, and order items.
-
-**Schema:** `restaurants` — `menu_items`; `customers` — `orders` —
-`order_items`; `drivers` — `orders`.
-
-**Sample data:** 6 restaurants, 15 menu items, 8 customers, 4 drivers, 18
-orders.
-
-**Query highlights:** average delivery time per restaurant, orders slower
-than their own restaurant's average (correlated subquery), customer spend
-tiers, cancellation rate per restaurant.
-
-### 8. Airline Booking System
+### 7. Airline Booking System
 
 Airports, flights, passengers, and bookings.
 
